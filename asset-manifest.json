@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MysearchBooks/static/css/main.e196f552.css",
+    "main.js": "/MysearchBooks/static/js/main.12d9609c.js",
+    "static/js/453.4e3922c5.chunk.js": "/MysearchBooks/static/js/453.4e3922c5.chunk.js",
+    "static/media/backgroundBookSearch.jpg": "/MysearchBooks/static/media/backgroundBookSearch.e314a12262ba22ffcc46.jpg",
+    "static/media/bookdesk.jpg": "/MysearchBooks/static/media/bookdesk.d873be37b7fef96f882e.jpg",
+    "static/media/bookdesk2.jpg": "/MysearchBooks/static/media/bookdesk2.4cb6a1a59267ec0be834.jpg",
+    "static/media/nofoto.jpg": "/MysearchBooks/static/media/nofoto.0d3290ede81ae1ec6087.jpg",
+    "static/media/bookdesk3.jpg": "/MysearchBooks/static/media/bookdesk3.67952bc2605a2d3b7a9a.jpg",
+    "static/media/bookdesk1.jpg": "/MysearchBooks/static/media/bookdesk1.07dbfcb31f4b31ff3c7b.jpg",
+    "static/media/bookdesk5.jpg": "/MysearchBooks/static/media/bookdesk5.07dbfcb31f4b31ff3c7b.jpg",
+    "static/media/nofoto.png": "/MysearchBooks/static/media/nofoto.aba83031ad47bab26e34.png",
+    "static/media/logo.png": "/MysearchBooks/static/media/logo.5593bac6339e4abef391.png",
+    "index.html": "/MysearchBooks/index.html",
+    "main.e196f552.css.map": "/MysearchBooks/static/css/main.e196f552.css.map",
+    "main.12d9609c.js.map": "/MysearchBooks/static/js/main.12d9609c.js.map",
+    "453.4e3922c5.chunk.js.map": "/MysearchBooks/static/js/453.4e3922c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e196f552.css",
+    "static/js/main.12d9609c.js"
+  ]
+}
