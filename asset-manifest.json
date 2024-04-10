@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MysearchBooks/static/css/main.e196f552.css",
-    "main.js": "/MysearchBooks/static/js/main.a2b754be.js",
+    "main.js": "/MysearchBooks/static/js/main.4bf1022d.js",
     "static/js/453.4e3922c5.chunk.js": "/MysearchBooks/static/js/453.4e3922c5.chunk.js",
     "static/media/backgroundBookSearch.jpg": "/MysearchBooks/static/media/backgroundBookSearch.e314a12262ba22ffcc46.jpg",
     "static/media/bookdesk.jpg": "/MysearchBooks/static/media/bookdesk.d873be37b7fef96f882e.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.png": "/MysearchBooks/static/media/logo.5593bac6339e4abef391.png",
     "index.html": "/MysearchBooks/index.html",
     "main.e196f552.css.map": "/MysearchBooks/static/css/main.e196f552.css.map",
-    "main.a2b754be.js.map": "/MysearchBooks/static/js/main.a2b754be.js.map",
+    "main.4bf1022d.js.map": "/MysearchBooks/static/js/main.4bf1022d.js.map",
     "453.4e3922c5.chunk.js.map": "/MysearchBooks/static/js/453.4e3922c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e196f552.css",
-    "static/js/main.a2b754be.js"
+    "static/js/main.4bf1022d.js"
   ]
 }
