@@ -33,19 +33,20 @@ const ResultContainer = styled.div`
     color: gray;
 `;
 
+const apiURL = process.env.REACT_APP_API_URL_MAIN;
+const apiKey = process.env.REACT_APP_API_KEY;
+
 const Main = props => {
     const params = useParams();
     //console.log(params.name);
 
     //const navigate = useHref();
 
+
     const [books, setBooks] = useState([]);
 
     const getBooks = name => {
-        const topURL =
-            'https://www.googleapis.com/books/v1/volumes?q=' +
-            name +
-            '=free-ebooks&key=AIzaSyBEyJHg0wfk1cS492KP60cCdXD_Rfj4UFM&maxResults=40';
+        const topURL = `${apiURL}?q=${name}=free-ebooks&${apiKey}&maxResults=40`;
         axios
             .get(topURL)
             .then(res => setBooks(res.data.items))

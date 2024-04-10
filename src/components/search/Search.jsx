@@ -27,19 +27,20 @@ const ResultContainer = styled.div`
     color: gray;
 `;
 
+const apiURL = process.env.REACT_APP_API_URL_MAIN;
+const apiKey = process.env.REACT_APP_API_KEY;
+
 const Search = () => {
     const params = useParams();
     //console.log(params.name);
 
     const [books, setBooks] = useState([]);
 
+
+    
     const getBooks = name => {
         axios
-            .get(
-                'https://www.googleapis.com/books/v1/volumes?q=subject:' +
-                    name +
-                    '&key=AIzaSyBEyJHg0wfk1cS492KP60cCdXD_Rfj4UFM&maxResults=40'
-            )
+            .get( `${apiURL}?q=subject:${name}&${apiKey}&maxResults=40` )
             .then(res => setBooks(res.data.items))
             .catch(err => console.log(err));
     };
