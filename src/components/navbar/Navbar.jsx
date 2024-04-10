@@ -49,16 +49,22 @@ const NavbarMenu = props => {
             fixed="top"
         >
             <Container fluid className="gap-5">
-                <Navbar.Brand href="#home">
-                    <img
-                        src={logo}
-                        alt="responsive-img"
-                        style={{
-                            width: '150px',
-                            height: '140px'
-                        }}
-                        className="m-2"
-                    />
+                <Navbar.Brand>
+                    <NavLink
+                        to="/"
+                        title="Home"
+                        id="home"
+                    >
+                        <img
+                            src={logo}
+                            alt="responsive-img"
+                            style={{
+                                width: '150px',
+                                height: '140px'
+                            }}
+                            className="m-2"
+                        />
+                    </NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse
