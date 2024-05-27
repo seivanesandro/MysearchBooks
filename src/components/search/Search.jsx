@@ -36,11 +36,11 @@ const Search = () => {
 
     const [books, setBooks] = useState([]);
 
-
-    
     const getBooks = name => {
         axios
-            .get( `${apiURL}?q=subject:${name}&${apiKey}&maxResults=40` )
+            .get(
+                `${apiURL}?q=subject:${name}&${apiKey}&maxResults=40`
+            )
             .then(res => setBooks(res.data.items))
             .catch(err => console.log(err));
     };
